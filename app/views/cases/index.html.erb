@@ -17,6 +17,7 @@
     <td><%= c.description %></td>
     <td><%= c.news_feed %></td>
     <td><%= c.case_date %></td>
+    <td><%= image_tag c.case_img %></td>
     <td><%= link_to 'Show', c %></td>
     <td><%= link_to 'Edit', edit_case_path(c) %></td>
     <td><%= link_to 'Destroy', c, method: :delete, data: { confirm: 'Are you sure?' } %></td>

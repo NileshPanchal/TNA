@@ -20,6 +20,11 @@
   <%= @case.case_date %>
 </p>
 
+<p>
+  <b>Case image:</b>
+  <%= image_tag @case.case_img.url %>
+</p>
+
 
 <%= link_to 'Edit', edit_case_path(@case) %> |
 <%= link_to 'Back', cases_path %>

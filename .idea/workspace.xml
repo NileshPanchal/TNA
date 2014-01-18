@@ -27,36 +27,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/clues/show.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/cases/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/clues/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="20" selection-start="273" selection-end="273" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ppl_involved.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/ppl_involved.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="23" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/killers/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="32" selection-start="625" selection-end="635" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="585">
+            <state line="24" column="16" selection-start="289" selection-end="289" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -65,25 +38,43 @@
       <file leaf-file-name="killer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/killer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+            <state line="1" column="71" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="victim.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/victim.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/crime_scenes/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+            <state line="14" column="16" selection-start="198" selection-end="198" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/victims/_form.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cases/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="20" selection-start="623" selection-end="623" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="585">
+            <state line="19" column="22" selection-start="358" selection-end="358" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/killers/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="16" selection-start="183" selection-end="183" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="465">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/clues/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="30" selection-start="194" selection-end="194" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -92,16 +83,25 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="437" selection-end="437" vertical-scroll-proportion="0.36173633" vertical-offset="0" max-vertical-offset="622">
+            <state line="15" column="6" selection-start="436" selection-end="436" vertical-scroll-proportion="0.36173633" vertical-offset="0" max-vertical-offset="622">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/ppl_involveds/_form.html.erb">
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="20" selection-start="652" selection-end="652" vertical-scroll-proportion="-5.9166665" vertical-offset="203" max-vertical-offset="825">
+            <state line="22" column="24" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="1770">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crime_scene.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/crime_scene.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="64" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -129,7 +129,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20140118083646_create_clues.rb" />
-        <option value="$PROJECT_DIR$/app/views/cases/index.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140118084215_create_victims.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140118084420_create_ppl_involveds.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140118084635_create_killers.rb" />
@@ -140,15 +139,19 @@
         <option value="$PROJECT_DIR$/app/models/clue.rb" />
         <option value="$PROJECT_DIR$/app/views/clues/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140118083546_create_crime_scenes.rb" />
-        <option value="$PROJECT_DIR$/app/models/crime_scene.rb" />
-        <option value="$PROJECT_DIR$/app/views/clues/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/clues/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/ppl_involveds/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/ppl_involved.rb" />
         <option value="$PROJECT_DIR$/app/views/killers/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/killer.rb" />
         <option value="$PROJECT_DIR$/app/models/victim.rb" />
         <option value="$PROJECT_DIR$/app/views/victims/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/crime_scene.rb" />
+        <option value="$PROJECT_DIR$/app/views/cases/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/killer.rb" />
+        <option value="$PROJECT_DIR$/app/views/crime_scenes/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/cases/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/killers/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/clues/show.html.erb" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -222,46 +225,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Timeline-Noir" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TNA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Timeline-Noir" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TNA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -631,13 +594,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="22" selection-start="1543" selection-end="1543" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1020">
@@ -761,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cases/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="104" selection-end="169" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/game_play.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="3" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
@@ -873,20 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/crime_scene.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="136" selection-end="136" vertical-scroll-proportion="0.08797654" vertical-offset="0" max-vertical-offset="341">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="15" selection-start="3317" selection-end="3317" vertical-scroll-proportion="0.33171913" vertical-offset="1273" max-vertical-offset="1710">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140118090745_add_column_crime_scene_id_to_victim.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="20" selection-start="95" selection-end="95" vertical-scroll-proportion="0.07263923" vertical-offset="0" max-vertical-offset="413">
@@ -901,13 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clues/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/clues/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="20" selection-start="273" selection-end="273" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
@@ -917,7 +845,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ppl_involveds/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="652" selection-end="652" vertical-scroll-proportion="-5.9166665" vertical-offset="203" max-vertical-offset="825">
+        <state line="23" column="20" selection-start="652" selection-end="652" vertical-scroll-proportion="0.22829582" vertical-offset="203" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
@@ -936,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/killer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/victim.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="31" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
@@ -957,9 +878,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/crime_scene.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="64" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cases/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="16" selection-start="289" selection-end="289" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/killer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="71" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/crime_scenes/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="198" selection-end="198" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cases/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="22" selection-start="358" selection-end="358" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/killers/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="183" selection-end="183" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clues/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="194" selection-end="194" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="437" selection-end="437" vertical-scroll-proportion="0.36173633" vertical-offset="0" max-vertical-offset="622">
+        <state line="15" column="6" selection-start="436" selection-end="436" vertical-scroll-proportion="0.36173633" vertical-offset="0" max-vertical-offset="622">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,6 @@
 class CrimeScene < ActiveRecord::Base
-  attr_accessible :crime_scene_img, :description, :name
-  attr_accessor :crime_scene_img_file_name
+  attr_accessible :crime_scene_img, :description, :name,:case_id
+
   has_attached_file :crime_scene_img
 
 

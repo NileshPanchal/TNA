@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140118090745) do
+ActiveRecord::Schema.define(:version => 20140118092602) do
 
   create_table "cases", :force => true do |t|
     t.string   "name"
@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(:version => 20140118090745) do
     t.datetime "clue_img_updated_at"
     t.datetime "created_at",            :null => false
     t.datetime "updated_at",            :null => false
+    t.integer  "crime_scene_id"
   end
 
   create_table "crime_scenes", :force => true do |t|
@@ -46,6 +47,7 @@ ActiveRecord::Schema.define(:version => 20140118090745) do
     t.datetime "crime_scene_img_updated_at"
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
+    t.integer  "case_id"
   end
 
   create_table "game_plays", :force => true do |t|
@@ -74,6 +76,7 @@ ActiveRecord::Schema.define(:version => 20140118090745) do
     t.text     "statement"
     t.datetime "created_at",              :null => false
     t.datetime "updated_at",              :null => false
+    t.integer  "case_id"
   end
 
   create_table "ppl_involveds", :force => true do |t|
@@ -90,6 +93,7 @@ ActiveRecord::Schema.define(:version => 20140118090745) do
     t.string   "type"
     t.datetime "created_at",             :null => false
     t.datetime "updated_at",             :null => false
+    t.integer  "crime_scene_id"
   end
 
   create_table "victims", :force => true do |t|
