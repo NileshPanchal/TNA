@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140118084635) do
+ActiveRecord::Schema.define(:version => 20140118090745) do
 
   create_table "cases", :force => true do |t|
     t.string   "name"
@@ -40,12 +40,12 @@ ActiveRecord::Schema.define(:version => 20140118084635) do
   create_table "crime_scenes", :force => true do |t|
     t.string   "name"
     t.text     "description"
-    t.string   "case_img_file_name"
-    t.string   "case_img_content_type"
-    t.integer  "case_img_file_size"
-    t.datetime "case_img_updated_at"
-    t.datetime "created_at",            :null => false
-    t.datetime "updated_at",            :null => false
+    t.string   "crime_scene_img_file_name"
+    t.string   "crime_scene_img_content_type"
+    t.integer  "crime_scene_img_file_size"
+    t.datetime "crime_scene_img_updated_at"
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
   end
 
   create_table "game_plays", :force => true do |t|
@@ -102,6 +102,7 @@ ActiveRecord::Schema.define(:version => 20140118084635) do
     t.text     "statement"
     t.datetime "created_at",              :null => false
     t.datetime "updated_at",              :null => false
+    t.integer  "crime_scene_id"
   end
 
 end

@@ -3,7 +3,7 @@ class CreateCrimeScenes < ActiveRecord::Migration
     create_table :crime_scenes do |t|
       t.string :name
       t.text :description
-      t.attachment :case_img
+      t.attachment :crime_scene_img
 
       t.timestamps
     end
