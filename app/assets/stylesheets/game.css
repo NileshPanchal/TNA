@@ -1,4 +1,56 @@
-.container{
-    width: 760px;
-    height: 675px;
+body, html {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    background: #fff;
+    color: #333;
+}
+
+/*.container {*/
+    /*width: 760px;*/
+    /*height: 675px;*/
+/*}*/
+
+.mob-offset-6{
+    margin-left: 48%;
+}
+
+.mob-offset-8{
+    margin-left: 70%;
+}
+
+.game-text{
+    font-size: 14px;
+    padding: 2px;
+}
+
+#footer{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#footer>div{
+    background-color: #111;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(#111));
+    background-image: -webkit-linear-gradient(top, #333, #111);
+    background-image: -moz-linear-gradient(top, #333, #111);
+    background-image: -o-linear-gradient(top, #333, #111);
+    background-image: linear-gradient(to bottom, #333, #111);
+
+    cursor: pointer;
+    display: block;
+    line-height: 40px;
+    padding: 0 20px;
+    color: #fff;
+    text-align: center;
+    border-right: 1px solid #000;
+    border-left: 1px solid #333;
 }

@@ -1,40 +1,281 @@
-<!--<div class="container">-->
-  <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h1>Listing games</h1>
+<div id="game_play_row" class="layer">
+    <h1>Case Detail</h1>
+</div>
+
+<div id="archives_row" class="layer">
+  <div id="case_file">
+      <div class="row" id="game_play_area">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="position: relative">
+          <div class="swiper-container swiper-content">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="inner">
+                  <h1>Game 01 Title</h1>
+                  <div class="movie-text">Game 01 Description</div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="inner">
+                  <h1>Game 02 Title</h1>
+                  <div class="movie-text">Game 02 Description</div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-container swiper-nav">
+        <div class="swiper-wrapper">
+
+        </div>
+      </div>
+
+  </div>
+
+  <div class="row" id="btns" style="z-index: 1; top:415px; position: absolute">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+      <button class="btn btn-info" id="case_file_btn">Case File</button>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 mob-offset-6">
+      <button class="btn btn-info" id="select_killer_btn">Select Killer</button>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <table>
-        <tr>
-          <th>Name</th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
+</div>
 
-        <% @games.each do |game| %>
-            <tr>
-              <td><%= game.name %></td>
-              <td><%= link_to 'Show', game %></td>
-              <td><%= link_to 'Edit', edit_game_path(game) %></td>
-              <td><%= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-            </tr>
-        <% end %>
-      </table>
-
-      <br />
-
-      <%= link_to 'New Game', new_game_path %>
+<div id="leaderboard_row" class="layer" style="display: none">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <ul>
+      <li>User 01</li>
+      <li>User 02</li>
+      <li>User 03</li>
+      <li>User 04</li>
+      <li>User 05</li>
+    </ul>
+    <div class="row" style="z-index: 1; top:415px; position: absolute; width: 100%;">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        <button class="btn btn-info" id="share_btn">Share</button>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        <button class="btn btn-info" id="back_btn">Back</button>
+      </div>
     </div>
   </div>
-<!--</div>-->
+</div>
+
+<div id="social_row" class="layer" style="display: none">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <table class="table table-striped">
+      <tr>
+        <th>Case</th>
+        <th>Score</th>
+      </tr>
+      <tr>
+        <td>Case 01</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>Case 02</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>Case 03</td>
+        <td>100</td>
+      </tr>
+    </table>
+    <div class="row" style="z-index: 1; top:415px; position: absolute; width: 100%;">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        <button class="btn btn-info" id="social_share_btn">Share</button>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        <button class="btn btn-info" id="social_back_btn">Back</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="arch_hists" class="layer" style="display: none;">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="position: relative">
+    <div class="swiper-container swiper-content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="inner">
+            <h1>AH 01 Title</h1>
+            <div class="movie-text">AH 01 Description</div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="inner">
+            <h1>AH 02 Title</h1>
+            <div class="movie-text">AH 02 Description</div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-container swiper-nav">
+  <div class="swiper-wrapper">
+
+  </div>
+</div>
+
+<div id="solved_case" class="layer">
+  <div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="position: relative">
+        <div class="swiper-container swiper-content">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="inner">
+                <h1>Game 01 Title</h1>
+                <div class="movie-text">Game 01 Description</div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="inner">
+                <h1>Game 02 Title</h1>
+                <div class="movie-text">Game 02 Description</div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-container swiper-nav">
+      <div class="swiper-wrapper">
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row" style="z-index: 1; top:415px; position: absolute">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+      <button class="btn btn-info" id="file_btn">Case File</button>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 mob-offset-6">
+      <button class="btn btn-info" id="killer_btn">Killer</button>
+    </div>
+  </div>
+
+</div>
 
 
 <script>
   $(function(){
+      load_swiper();
+      var swiper_content_height = $('.swiper-content').height();
+      var swiper_nav_height = $('.swiper-nav').height();
+      //alert(swiper_nav_height);
+
+      function setContentSize() {
+          $('.swiper-content').css({
+              height: $(window).height()-$('.swiper-nav').height()-swiper_nav_height
+//              height: $(window).height()-$('.swiper-nav').height()
+          })
+      }
+      setContentSize()
+      $(window).resize(function(){
+          setContentSize()
+      })
+
+      //Swiper Content
+      var contentSwiper = $('.swiper-content').swiper({
+          onSlideChangeStart: function(){
+              updateNavPosition()
+          }
+      })
+      //Nav
+      var navSwiper = $('.swiper-nav').swiper({
+          visibilityFullFit: true,
+          slidesPerView:'auto',
+          //Thumbnails Clicks
+          onSlideClick: function(){
+              contentSwiper.swipeTo( navSwiper.clickedSlideIndex )
+          }
+      })
+
+
+      var new_h = $('.swiper-content').height() - 105;
+      $('.swiper-nav').css('top',new_h+'px');
+
+      //Update Nav Position
+      function updateNavPosition(){
+          $('.swiper-nav .active-nav').removeClass('active-nav')
+          var activeNav = $('.swiper-nav .swiper-slide').eq(contentSwiper.activeIndex).addClass('active-nav')
+          if (!activeNav.hasClass('swiper-slide-visible')) {
+              if (activeNav.index()>navSwiper.activeIndex) {
+                  var thumbsPerNav = Math.floor(navSwiper.width/activeNav.width())-1
+                  navSwiper.swipeTo(activeNav.index()-thumbsPerNav)
+              }
+              else {
+                  navSwiper.swipeTo(activeNav.index())
+              }
+          }
+      }
+
+
+      $("#archives_btn").on('click', function(){
+          $('.layer').fadeOut();
+          //$("#archives_row").fadeIn();
+          $("#arch_hists").fadeIn();
+//          TODO: show new
+      });
+
+
+      $("#case_file_btn").on('click', function(){
+          $('#case_file').fadeIn();
+          $("#select_killers").fadeOut();
+      });
+
+      $("#select_killer_btn").on('click', function(){
+          $('#case_file').fadeOut();
+          $("#select_killers").fadeIn();
+          contentSwiper();
+      });
+
+      $("#leaderboard_btn").on('click', function(){
+          $('.layer').fadeOut();
+          setTimeout(function(){
+              $('#leaderboard_row').fadeIn();
+          }, 2000);
+      });
+
+      $("#social_btn").on('click', function(){
+          $('.layer').fadeOut();
+          setTimeout(function(){
+              $('#social_row').fadeIn();
+          }, 2000);
+      });
 
   });
+
+  function load_swiper(){
+
+      $('#archives_row').find('.swiper-content .swiper-wrapper').append('<div class="swiper-slide">'+
+              '<div class="inner"><h1>Game 01 Title</h1><div class="movie-text">Game 01 Description</div>' +
+              '<div class="clearfix"></div></div></div>');
+
+      $('#archives_row').find('.swiper-content .swiper-wrapper').append('<div class="swiper-slide">'+
+              '<div class="inner"><h1>Game 02 Title</h1><div class="movie-text">Game 02 Description</div>' +
+              '<div class="clearfix"></div></div></div>');
+
+      $('#archives_row').find('.swiper-nav .swiper-wrapper').append('<div class="swiper-slide active-nav"><span class="angle"></span>'+
+              '<img src="/assets/rails.png">'+
+              '<div class="title">Game 01 Title</div></div>');
+      $('#archives_row').find('.swiper-nav .swiper-wrapper').append('<div class="swiper-slide active-nav"><span class="angle"></span>'+
+              '<img src="/assets/rails.png">'+
+              '<div class="title">Game 02 Title</div></div>');
+
+  }
 </script>
