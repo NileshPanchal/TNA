@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @game_play.user_id %>
+</p>
+
+<p>
+  <b>Case:</b>
+  <%= @game_play.case_id %>
+</p>
+
+<p>
+  <b>Score:</b>
+  <%= @game_play.score %>
+</p>
+
+<p>
+  <b>Xp:</b>
+  <%= @game_play.xp %>
+</p>
+
+<p>
+  <b>Level:</b>
+  <%= @game_play.level %>
+</p>
+
+
+<%= link_to 'Edit', edit_game_play_path(@game_play) %> |
+<%= link_to 'Back', game_plays_path %>

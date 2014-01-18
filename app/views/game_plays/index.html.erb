@@ -1,0 +1,31 @@
+<h1>Listing game_plays</h1>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Case</th>
+    <th>Score</th>
+    <th>Xp</th>
+    <th>Level</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @game_plays.each do |game_play| %>
+  <tr>
+    <td><%= game_play.user_id %></td>
+    <td><%= game_play.case_id %></td>
+    <td><%= game_play.score %></td>
+    <td><%= game_play.xp %></td>
+    <td><%= game_play.level %></td>
+    <td><%= link_to 'Show', game_play %></td>
+    <td><%= link_to 'Edit', edit_game_play_path(game_play) %></td>
+    <td><%= link_to 'Destroy', game_play, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Game play', new_game_play_path %>

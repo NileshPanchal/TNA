@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @ppl_involved.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @ppl_involved.description %>
+</p>
+
+<p>
+  <b>Avtar img:</b>
+  <%= @ppl_involved.avtar_img %>
+</p>
+
+<p>
+  <b>Statement:</b>
+  <%= @ppl_involved.statement %>
+</p>
+
+<p>
+  <b>Score:</b>
+  <%= @ppl_involved.score %>
+</p>
+
+<p>
+  <b>Xp:</b>
+  <%= @ppl_involved.xp %>
+</p>
+
+<p>
+  <b>Cost:</b>
+  <%= @ppl_involved.cost %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @ppl_involved.type %>
+</p>
+
+
+<%= link_to 'Edit', edit_ppl_involved_path(@ppl_involved) %> |
+<%= link_to 'Back', ppl_involveds_path %>

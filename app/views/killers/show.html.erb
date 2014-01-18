@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @killer.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @killer.description %>
+</p>
+
+<p>
+  <b>Killer img:</b>
+  <%= @killer.killer_img %>
+</p>
+
+<p>
+  <b>Statement:</b>
+  <%= @killer.statement %>
+</p>
+
+
+<%= link_to 'Edit', edit_killer_path(@killer) %> |
+<%= link_to 'Back', killers_path %>

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @victim.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @victim.description %>
+</p>
+
+<p>
+  <b>Victim img:</b>
+  <%= @victim.victim_img %>
+</p>
+
+<p>
+  <b>Statement:</b>
+  <%= @victim.statement %>
+</p>
+
+
+<%= link_to 'Edit', edit_victim_path(@victim) %> |
+<%= link_to 'Back', victims_path %>

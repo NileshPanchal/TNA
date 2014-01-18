@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @crime_scene.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @crime_scene.description %>
+</p>
+
+<p>
+  <b>Crime scene img:</b>
+  <%= @crime_scene.crime_scene_img %>
+</p>
+
+
+<%= link_to 'Edit', edit_crime_scene_path(@crime_scene) %> |
+<%= link_to 'Back', crime_scenes_path %>

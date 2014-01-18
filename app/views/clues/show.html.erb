@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @clue.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @clue.description %>
+</p>
+
+<p>
+  <b>Clue:</b>
+  <%= @clue.clue %>
+</p>
+
+
+<%= link_to 'Edit', edit_clue_path(@clue) %> |
+<%= link_to 'Back', clues_path %>

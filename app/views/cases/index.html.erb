@@ -1,0 +1,29 @@
+<h1>Listing cases</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>News feed</th>
+    <th>Case date</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @cases.each do |c| %>
+  <tr>
+    <td><%= c.name %></td>
+    <td><%= c.description %></td>
+    <td><%= c.news_feed %></td>
+    <td><%= c.case_date %></td>
+    <td><%= link_to 'Show', c %></td>
+    <td><%= link_to 'Edit', edit_case_path(c) %></td>
+    <td><%= link_to 'Destroy', c, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Case', new_case_path %>

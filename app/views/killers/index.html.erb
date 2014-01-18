@@ -1,0 +1,29 @@
+<h1>Listing killers</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Killer img</th>
+    <th>Statement</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @killers.each do |killer| %>
+  <tr>
+    <td><%= killer.name %></td>
+    <td><%= killer.description %></td>
+    <td><%= killer.killer_img %></td>
+    <td><%= killer.statement %></td>
+    <td><%= link_to 'Show', killer %></td>
+    <td><%= link_to 'Edit', edit_killer_path(killer) %></td>
+    <td><%= link_to 'Destroy', killer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Killer', new_killer_path %>

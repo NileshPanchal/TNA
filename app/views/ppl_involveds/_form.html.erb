@@ -1,0 +1,49 @@
+<%= form_for(@ppl_involved) do |f| %>
+  <% if @ppl_involved.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@ppl_involved.errors.count, "error") %> prohibited this ppl_involved from being saved:</h2>
+
+      <ul>
+      <% @ppl_involved.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :avtar_img %><br />
+    <%= f.text_field :avtar_img %>
+  </div>
+  <div class="field">
+    <%= f.label :statement %><br />
+    <%= f.text_area :statement %>
+  </div>
+  <div class="field">
+    <%= f.label :score %><br />
+    <%= f.number_field :score %>
+  </div>
+  <div class="field">
+    <%= f.label :xp %><br />
+    <%= f.number_field :xp %>
+  </div>
+  <div class="field">
+    <%= f.label :cost %><br />
+    <%= f.number_field :cost %>
+  </div>
+  <div class="field">
+    <%= f.label :type %><br />
+    <%= f.text_field :type %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

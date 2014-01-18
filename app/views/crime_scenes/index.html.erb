@@ -1,0 +1,27 @@
+<h1>Listing crime_scenes</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Crime scene img</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @crime_scenes.each do |crime_scene| %>
+  <tr>
+    <td><%= crime_scene.name %></td>
+    <td><%= crime_scene.description %></td>
+    <td><%= crime_scene.crime_scene_img %></td>
+    <td><%= link_to 'Show', crime_scene %></td>
+    <td><%= link_to 'Edit', edit_crime_scene_path(crime_scene) %></td>
+    <td><%= link_to 'Destroy', crime_scene, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Crime scene', new_crime_scene_path %>

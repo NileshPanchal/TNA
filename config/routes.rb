@@ -1,4 +1,25 @@
 TimelineNoir::Application.routes.draw do
+  resources :killers
+
+
+  resources :game_plays
+
+
+  resources :ppl_involveds
+
+
+  resources :victims
+
+
+  resources :clues
+
+
+  resources :crime_scenes
+
+
+  resources :cases
+
+
   resources :games
 
 

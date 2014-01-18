@@ -1,0 +1,2 @@
+module CrimeScenesHelper
+end
